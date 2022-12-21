@@ -4,7 +4,7 @@ nextflow.enable.dsl=2
 def helpMessage() {
     // TODO
     log.info """
-    Please see here for usage information: https://github.com/cynapse-ccri/template-nf/blob/main/docs/Usage.md
+    Please see here for usage information: https://github.com/cynapse-ccri/nf-troubleshooting/blob/main/docs/Usage.md
     """.stripIndent()
 }
 

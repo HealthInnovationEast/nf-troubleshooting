@@ -1,4 +1,4 @@
-# template-nf
+# nf-troubleshooting
 
 This is a template project to be used when creating nextflow for CYNAPSE projects.
 
