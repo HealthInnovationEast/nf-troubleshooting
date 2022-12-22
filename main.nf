@@ -57,7 +57,7 @@ process trivial_example {
 
     publishDir {
       "results"
-  }, mode: 'copy', pattern: '*.txt'
+    }, mode: 'copy', pattern: '*.txt'
 
     shell = ['/bin/bash', '-euo', 'pipefail']
 
