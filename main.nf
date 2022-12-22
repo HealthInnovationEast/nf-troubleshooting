@@ -55,6 +55,10 @@ process trivial_example {
     output:
         path 'greeting.txt', emit: greeting
 
+    publishDir {
+      "results"
+  }, mode: 'copy', pattern: '*.txt'
+
     shell = ['/bin/bash', '-euo', 'pipefail']
 
     // this just creates files required to allow testing of a structure
